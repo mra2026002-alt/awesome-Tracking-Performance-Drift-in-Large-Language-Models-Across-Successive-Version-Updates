@@ -78,7 +78,29 @@ See [implementations/github-repositories.md](implementations/github-repositories
 
 ## Tutorials and Learning Resources
 
-- *(to be added — see course instructions for at least 5 authoritative tutorial/learning resources)*
+- ## Tutorials and Learning Resources
+
+Authoritative learning material for understanding LLM evaluation, benchmarking, and performance drift — each verified as a genuine, currently accessible resource.
+
+- **Hugging Face LLM Course — Evaluation Chapter**
+  [huggingface.co/learn/llm-course/en/chapter11/5](https://huggingface.co/learn/llm-course/en/chapter11/5)
+  A free, official tutorial covering standard automatic benchmarks (MMLU, TruthfulQA, etc.), their limitations, and how to build custom evaluations — foundational background for understanding what a drift study is actually measuring.
+
+- **Hugging Face Open-Source AI Cookbook — Using LLM-as-a-Judge**
+  [huggingface.co/learn/cookbook/llm_judge](https://huggingface.co/learn/cookbook/llm_judge)
+  A hands-on, code-along notebook explaining how to set up an LLM-as-judge evaluation pipeline correctly, directly implementing the methodology from Zheng et al. (2023) referenced in the accompanying paper.
+
+- **HELM (Holistic Evaluation of Language Models) — Official Documentation**
+  [crfm-helm.readthedocs.io](https://crfm-helm.readthedocs.io/)
+  Stanford CRFM's official documentation for installing and running the HELM benchmark suite, the standardized multi-metric evaluation framework discussed in Section 4.2 of the accompanying paper.
+
+- **Stanford CS336: Language Modeling from Scratch**
+  [cs336.stanford.edu](https://cs336.stanford.edu/)
+  A graduate-level Stanford course (taught by Percy Liang, Tatsu Hashimoto, and others) walking through the full LLM lifecycle — data, training, and evaluation — providing the technical grounding needed to understand *why* successive model versions can behave differently.
+
+- **Mistral AI — Guide to Evaluating LLMs**
+  [docs.mistral.ai/guides/evaluation](https://docs.mistral.ai/guides/evaluation/)
+  An official, practitioner-oriented guide covering metrics-based, LLM-based, and human-based evaluation methods with runnable Python notebooks, useful for understanding the practical toolkit behind longitudinal benchmark replay (Section 4.1 of the paper).
 
 ## License
 
