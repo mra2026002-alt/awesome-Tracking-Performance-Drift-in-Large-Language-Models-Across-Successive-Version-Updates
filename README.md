@@ -31,7 +31,7 @@ Tracking drift matters because it is simultaneously a reproducibility problem (a
 
 This paper synthesizes the emerging literature on LLM performance drift, developing a taxonomy of drift sources (weight-level, system-level, and evaluation-level), surveying current monitoring approaches (longitudinal benchmark replays, HELM-style holistic evaluation, LLM-as-judge tracking, and model-card-style disclosure), and identifying research gaps including the need for contamination-resistant benchmarks, formal drift-detection statistics, and causal attribution methods.
 
-[View Paper](paper/AI_Assisted_Research_Paper.pdf)
+[View Paper](paper/Ai_Assisted_Research_Paper.pdf)
 
 ## Citation Integrity Audit
 
@@ -82,4 +82,4 @@ See [implementations/github-repositories.md](implementations/github-repositories
 
 ## License
 
-This repository's original content (the AI-assisted research paper, citation integrity audit, and curation write-ups) is released under the MIT License. See [LICENSE](LICENSE) for full terms and scope, including which external content it does not cover.
+This repository's original content (the AI-assisted research paper, citation integrity audit, and curation write-ups) is released under the MIT License. See [LICENSE](License) for full terms and scope, including which external content it does not cover.
